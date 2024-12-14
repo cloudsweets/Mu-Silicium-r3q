@@ -43,11 +43,11 @@
   gSiliciumPkgTokenSpaceGuid.PcdDeviceMaintainer|"CloudSweets"
 
   # CPU Vector Address
-  gArmTokenSpaceGuid.PcdCpuVectorBaseAddress|<CPU Vector Base Address>
+  gArmTokenSpaceGuid.PcdCpuVectorBaseAddress|0x9FF8C000
 
   # UEFI Stack Addresses
-  gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|<UEFI Stack Base Address>
-  gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|<UEFI Stack Size>
+  gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x9FFB0000
+  gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00020000
 
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemVendor|"Samsung"
@@ -65,7 +65,7 @@
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"
 
   # Dynamic RAM Start Address
-  gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|<Free DDR Region Start Address>
+  gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xA8400000
 
   # SD Card Slot
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|TRUE
