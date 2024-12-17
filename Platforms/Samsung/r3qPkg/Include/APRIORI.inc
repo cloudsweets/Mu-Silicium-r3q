@@ -3,7 +3,7 @@ APRIORI DXE {
     INF MdeModulePkg/Core/Dxe/DxeMain.inf
     INF MdeModulePkg/Universal/PCD/Dxe/Pcd.inf
 
-    INF Binaries/r3q/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
+    # INF Binaries/r3q/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
 
     INF MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/ReportStatusCodeRouterRuntimeDxe.inf
     INF MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/StatusCodeHandlerRuntimeDxe.inf
@@ -49,7 +49,7 @@ APRIORI DXE {
 
     INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
 
-    INF Binaries/r3q/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
+    # INF Binaries/r3q/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
     INF Binaries/r3q/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
     INF Binaries/r3q/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
     INF Binaries/r3q/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf

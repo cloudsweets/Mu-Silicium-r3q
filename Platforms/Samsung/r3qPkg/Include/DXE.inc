@@ -30,8 +30,8 @@
     INF MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
 
     INF Binaries/r3q/QcomPkg/Drivers/FontDxe/FontDxe.inf
-    INF Binaries/r3q/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
-    INF Binaries/r3q/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
+    # INF Binaries/r3q/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
+    # INF Binaries/r3q/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
     INF Binaries/r3q/QcomPkg/Drivers/QcomMpmTimerDxe/QcomMpmTimerDxe.inf
 
     INF ArmPkg/Drivers/ArmGic/ArmGicDxe.inf
