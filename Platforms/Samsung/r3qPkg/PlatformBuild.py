@@ -59,14 +59,14 @@ class SettingsManager (UpdateSettingsManager, SetupSettingsManager, PrEvalSettin
 
     def GetRequiredSubmodules (self):
         return [
-            RequiredSubmodule ("Binaries", True),
+            # RequiredSubmodule ("Binaries", True),
             RequiredSubmodule ("Common/Mu", True),
             RequiredSubmodule ("Common/Mu_OEM_Sample", True),
             RequiredSubmodule ("Common/Mu_Tiano_Plus", True),
             RequiredSubmodule ("Features/DFCI", True),
             RequiredSubmodule ("Mu_Basecore", True),
             RequiredSubmodule ("Silicon/Arm/Mu_Tiano", True),
-            RequiredSubmodule ("Silicium-ACPI", True),
+            # RequiredSubmodule ("Silicium-ACPI", True),
         ]
 
     def SetArchitectures (self, list_of_requested_architectures):
